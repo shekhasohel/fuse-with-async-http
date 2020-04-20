@@ -17,3 +17,8 @@ mvn fabric8:deploy -Pfabric8
 ```
 curl -kv http://localhost:8080/api/hello
 ```
+
+## Blog
+```
+https://edwin.baculsoft.com/2020/04/create-async-http-process-with-red-hat-fuse-on-top-of-openshift-3-11/
+```
