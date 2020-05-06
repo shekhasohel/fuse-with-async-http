@@ -26,6 +26,10 @@ public class Routes extends RouteBuilder {
                 .route()
                 .setBody(method("helloRouteHandler", "setHelloWithName"))
                 .endRest()
+                .get("something")
+                .route()
+                .setBody().body(()->new HelloResponse("Hello World!"))
+                .endRest()
         ;
     }
 }
