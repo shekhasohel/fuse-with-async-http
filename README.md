@@ -13,6 +13,11 @@ mvn clean package -s settings.xml
 mvn fabric8:deploy -Pfabric8
 ```
 
+## Redeploy to OCP
+```
+mvn clean install -Pfabric8
+```
+
 ## curl
 ```
 curl -kv http://localhost:8080/api/hello
